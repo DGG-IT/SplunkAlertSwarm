@@ -1,0 +1,20 @@
+<setup>
+  <!-- This file is where you customize all of your app-level settings. -->
+    <block title="Custom Alerts">
+        <text>Configure Alert Notifications</text>
+    </block>
+    <block title="Server" endpoint="admin/alert_actions" entity="SHC_SwarmAlertWebhook">
+	<input field="param.SwarmURL">
+            <label>Swarm URL</label>
+            <type>text</type>
+        </input>
+	<input field="param.SwarmUsername">
+            <label>Swarm Username</label>
+            <type>text</type>
+        </input>
+	<input field="param.SwarmPassword">
+	    <label>Swarm Password</label>
+	    <type>text</type>
+	</input>
+    </block>
+</setup>

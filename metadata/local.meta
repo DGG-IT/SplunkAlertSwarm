@@ -1,0 +1,7 @@
+[alert_actions/SHC_SwarmAlertWebhook]
+version = 6.6.3
+modtime = 1512588388.977547000
+
+[app/install/is_configured]
+version = 6.6.3
+modtime = 1512588388.981011000

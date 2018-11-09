@@ -1,0 +1,12 @@
+[]
+access = read : [ * ], write : [ admin ]
+
+# TODO: Change 'alertaction_template' to the name of your action
+[alert_actions/SHC_SwarmAlertWebhook]
+export = system
+
+[alerts]
+export = system
+
+[restmap]
+export = system
